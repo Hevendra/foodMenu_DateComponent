@@ -1,0 +1,50 @@
+.card {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    width: 120px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.card:hover {
+    box-shadow: 5px 10px #888888;
+}
+
+.dayCard {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 0 2px lightgray;
+    border-radius: 10px;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+.selectedContainer {
+    background-color: #DDF8E8;
+    box-shadow: 0 0 0 2px #394B7C;
+    border: 5px solid #A6EDE2;
+}
+.dateTxt {
+    font-size: small;
+    font-weight: bold;
+    color: lightgray;
+} 
+.dayTxt {
+    font-size: medium;
+    font-weight: bold;
+    color: lightgray;
+    text-transform: uppercase;
+}
+.todayText {
+    font-size: small;
+    color: lightgray;
+}
+.selectedText {
+    color: black;   
+}

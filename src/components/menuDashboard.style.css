@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+}
+
+.daysContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #F6F6F6;
+    margin: 50px 0px;
+    padding: 20px;
+    flex-wrap: wrap;
+    min-width: 650px;
+}
+
+.detailContainer {
+    margin: 0px 50px;
+}
+
+.dayText {
+    color: #324376;
+    font: small;
+    font-weight: bold;
+}
+
+.detailText {
+    color: #78B961;
+    font: small;
+}
