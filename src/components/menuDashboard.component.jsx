@@ -23,11 +23,13 @@ const MenuDashboard = () => {
     }
 
     const showWeekDays = () => {
-        const dateVal = date.getDate() < 10 ? `0${date.getDate()}` : date.getDate()
-        const dateStr = `${dateVal} ${MONTH_NAMES[date.getMonth()]}`
         const today = date.getDay();
         const sortedDaysList = DAY_NAMES.slice(today).concat(DAY_NAMES.slice(0, today));
-        return sortedDaysList.map(day => {
+        return sortedDaysList.map( (day, index) => {
+            const dateNum = date.getDate()+index
+            const dateVal =  dateNum< 10 ? `0${dateNum}` : dateNum
+            const dateStr = `${dateVal} ${MONTH_NAMES[date.getMonth()]}`
+        
             return (
                 <DayCard
                     key={day}
