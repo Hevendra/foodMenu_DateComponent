@@ -10,14 +10,6 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
-  "jest": {
-    "setupFiles": [
-      "./src/setupTests.js"
-    ],
-    "snapshotSerializers": [
-      "enzyme-to-json/serializer"
-    ]
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -42,7 +34,6 @@
   "devDependencies": {
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
-    "enzyme-to-json": "^3.5.0",
-    "jest": "^26.0.1"
+    "enzyme-to-json": "^3.5.0"
   }
 }
